@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Desafio 1</title>
+    <style>
+
+    /* * { border: solid 1px #211;} */
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: lightblue;
+    }
+
+    .objetivo img{
+        height: 420px;
+        width: 400px;
+    }
+    .card {
+        background-color: white;
+        border-radius: 5px;
+        position: relative;
+        font-family: sans-serif;
+        border: solid 1px #ccc;
+        height: 380px;
+        width: 290px;
+        box-shadow: 3px 3px 10px #666;
+    }
+
+    .descricao {
+        position: relative;
+        margin: 0;
+        padding: 5px;
+        border-bottom: solid  1px #ccc ;
+    }
+
+    .card img { 
+        border-radius: 5px 5px 0 0 ;
+        width: 100%;
+        max-height: 50%;
+    }
+
+    .tipo p{
+        color: #999;
+        margin: 0;
+        padding: 5px 10px;
+    }
+
+
+    .nome-item h4 {
+        font-size: 20px;
+        padding: 10px 10px 5px 10px;
+        margin: 0;
+    }
+
+    .nome-item p {
+        margin: 0;
+        font-size: 12px;
+        padding: 10px;
+    }
+ 
+    .rodape {
+        margin: 0;
+        padding: 0px 10px;
+        
+    }
+
+    .rodape a {
+        font-size: 15px;
+        padding: 15px 5px;
+        font-weight: bold;
+        color: gray;
+        text-decoration: none;
+        display: block;
+    } 
+
+    .imagem {
+        position: relative;
+    }
+    .range {
+        position: absolute;
+        margin: 0 10px;
+        bottom: 20px;
+        padding: 5px;
+        background-color: blue;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="objetivo">
+        <h1>Objetivo</h1>
+        <img src="../desafioCardLhs/objetivo1.jpg" alt="objetivo1">
+    </div>
+
+
+      <div class="resultado">
+          <h1>Resultado</h1>
+        <div class="card">
+            <div class="imagem">
+                <img src="https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Blusa">
+                <div class="range">NEW RANGE</div>
+            </div>
+            <div class="descricao">
+                <div class="tipo">
+                    <p>COATS/JACKETS</p>
+                </div>
+                <div class="nome-item">
+                    <h4>Donut Denim</h4>
+                    <p>Check out our new range of Donut Denim, in a series critcs are calling 'the sweetest set of donut inspired clothing on the market'.</p>
+                </div>     
+            </div>
+            <div class="rodape">
+                <a href="#inicio">SAVE FOR LATER</a>
+            </div> 
+        </div>       
+    </div>
+</body>
+</html>
